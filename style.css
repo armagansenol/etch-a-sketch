@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(250, 215, 160);
+}
+
+button {
+    width: 20vh;
+    height: 8vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border: none;
+    background-color: rgb(250, 215, 160);
+    outline: none;
+    font-family: sans-serif;
+
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 6vh;
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 2px black;
+    margin-left: 8vw;
+    z-index: -1;
+}
